@@ -1,16 +1,10 @@
 # MusicGenerator
 
-credits to https://github.com/Conchylicultor/MusicGenerator will update readme soon
+##Overview
 
-## Presentation
+This is the code for [this](https://www.youtube.com/watch?v=pg9apmwf7og) video on Youtube by Siraj Raval as part of the Deep Learning Nanodegree course with Udacity. We're going to use an encoder-decoder model to generate a MIDI sequence given an input sequence of MIDI ragtime songs.
 
-Experiment diverse Deep learning models for music generation with TensorFlow
-
-## Results
-
-The different models and experiments are explained [here](docs/models.md).
-
-## Installation
+##Dependencies
 
 The program requires the following dependencies (easy to install using pip):
  * Python 3
@@ -21,9 +15,13 @@ The program requires the following dependencies (easy to install using pip):
  * Tqdm (for the nice progression bars)
  * OpenCv (Sorry, there is no simple way to install it with python 3. It's primarily used as visualisation tool to print the piano roll so is quite optional. All OpenCv calls are contained inside the imgconnector file so if you want to use test the program without OpenCv, you can try removing the functions inside the file)
 
-## Running
+##Usage
 
 To train the model, simply run `main.py`. Once trained, you can generate the results with `main.py --test --sample_length 500`. For more help and options, use `python main.py -h`.
 
 To visualize the computational graph and the cost with TensorBoard, run `tensorboard --logdir save/`.
 
+
+##Credits
+
+Credits for the code go to [Conchylicultor](https://github.com/Conchylicultor/MusicGenerator). I've merely created a wrapper to get people started.
