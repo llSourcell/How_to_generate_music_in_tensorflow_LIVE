@@ -1,5 +1,7 @@
 # MusicGenerator
 
+credits to https://github.com/Conchylicultor/MusicGenerator will update readme soon
+
 ## Presentation
 
 Experiment diverse Deep learning models for music generation with TensorFlow
@@ -24,3 +26,4 @@ The program requires the following dependencies (easy to install using pip):
 To train the model, simply run `main.py`. Once trained, you can generate the results with `main.py --test --sample_length 500`. For more help and options, use `python main.py -h`.
 
 To visualize the computational graph and the cost with TensorBoard, run `tensorboard --logdir save/`.
+
